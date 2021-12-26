@@ -22,13 +22,8 @@ export const CatsList: React.FC<Props> = ({ cats }) => {
 
     return (
         <Fragment>
-
-            <Row>
-                {newFilterData?.map(item => {
-                   return <Col key={`cats-item-${item?.id}`} sm={6} md={4} lg={3}>
-                        <Card  item={item}/>
-                    </Col>
-                })}
+            <Row >
+               {newFilterData?.map(item => <Card key={`cats-item-${item?.id}`}  item={item}/>)}
             </Row>
         </Fragment>
 
