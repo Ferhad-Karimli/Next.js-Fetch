@@ -53,7 +53,7 @@ const IndexPage = () => {
 
   return (
     <Layout title="Home | Next.js + TypeScript Example">
-      <h1>Hello CATS 👋</h1>
+      <h1 style={{textAlign:"center"}}>Hello CATS 👋</h1>
       {renderApp()}
     </Layout>
   )

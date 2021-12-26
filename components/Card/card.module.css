@@ -1,0 +1,17 @@
+.container{
+    border: none;
+    text-align: center;
+    margin-top: 160px;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+.container{
+    margin-top: 200px;
+}
+    .mobileParagraph{
+        font-size: 12px;
+    }
+  }
