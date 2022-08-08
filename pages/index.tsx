@@ -21,8 +21,6 @@ const IndexPage = () => {
       try {
         let data = await getCats()
         setCats(data)
-        console.log('page', data);
-
         setErr(false)
         setIsLoading(false)
 
