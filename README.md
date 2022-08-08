@@ -4,7 +4,7 @@ Project was build with  Next.js & TypeScript.
 
 
 
-![CatsApp](asset\catsapp.jpeg)
+![CatsApp](catsapp.jpeg)
 
 
 ## Preview
